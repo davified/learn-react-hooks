@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SimpleCounterExample from './SimpleCounterExample'
 import './App.css';
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hello hooks</h1>
+        <SimpleCounterExample />
       </div>
     );
   }
